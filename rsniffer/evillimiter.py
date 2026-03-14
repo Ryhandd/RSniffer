@@ -1,3 +1,11 @@
+import warnings
+warnings.filterwarnings("ignore", category=SyntaxWarning, module="scapy")
+warnings.filterwarnings("ignore", message=".*Ethernet destination MAC address.*")
+warnings.filterwarnings("ignore", message=".*iface.*has no effect on L3.*")
+
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+
 import re
 import os
 import os.path
