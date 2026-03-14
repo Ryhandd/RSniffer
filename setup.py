@@ -18,7 +18,7 @@ class CleanCommand(Command):
 
 
 def get_init_content():
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'evillimiter', '__init__.py'), 'r') as f:
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'rsniffer', '__init__.py'), 'r') as f:
         return f.read()
 
 
@@ -37,14 +37,14 @@ def get_description():
     raise RuntimeError('Unable to locate description string.')
 
 
-NAME = 'evillimiter'
+NAME = 'rsniffer'
 AUTHOR = 'bitbrute'
 AUTHOR_EMAIL = 'bitbrute@gmail.com'
 LICENSE = 'MIT'
 VERSION = get_version()
-URL = 'https://github.com/bitbrute/evillimiter'
+URL = 'https://github.com/bitbrute/rsniffer'
 DESCRIPTION = get_description()
-KEYWORDS = ["evillimiter", "limit", "bandwidth", "network"]
+KEYWORDS = ["rsniffer", "limit", "bandwidth", "network"]
 PACKAGES = find_packages()
 INCLUDE_PACKAGE_DATA = True
 
@@ -62,7 +62,7 @@ CLASSIFIERS = ['Development Status :: 3 - Alpha',
                ]
 
 PYTHON_REQUIRES = '>= 3'
-ENTRY_POINTS = { 'console_scripts': ['evillimiter = evillimiter.evillimiter:run'] }
+ENTRY_POINTS = { 'console_scripts': ['rsniffer = rsniffer.rsniffer:run'] }
 
 INSTALL_REQUIRES = ['colorama',
                     'netaddr',

@@ -1,6 +1,6 @@
 import os
 import subprocess
-from evillimiter.console.io import IO
+from rsniffer.console.io import IO
 
 DEVNULL = open(os.devnull, 'w')
 

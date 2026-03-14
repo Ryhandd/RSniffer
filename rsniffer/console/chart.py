@@ -1,4 +1,4 @@
-from evillimiter.console.io import IO
+from rsniffer.console.io import IO
 
 
 class BarChart(object):

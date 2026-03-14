@@ -1,4 +1,4 @@
-import evillimiter.console.shell as shell
+import rsniffer.console.shell as shell
 
 BROADCAST = 'ff:ff:ff:ff:ff:ff'
 

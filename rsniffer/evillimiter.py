@@ -6,10 +6,10 @@ import platform
 import collections
 import pkg_resources
 
-import evillimiter.networking.utils as netutils
-from evillimiter.menus.main_menu import MainMenu
-from evillimiter.console.banner import get_main_banner
-from evillimiter.console.io import IO
+import rsniffer.networking.utils as netutils
+from rsniffer.menus.main_menu import MainMenu
+from rsniffer.console.banner import get_main_banner
+from rsniffer.console.io import IO
 
 
 InitialArguments = collections.namedtuple('InitialArguments', 'interface, gateway_ip, netmask, gateway_mac')
