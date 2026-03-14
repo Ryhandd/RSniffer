@@ -37,12 +37,12 @@ def get_description():
     raise RuntimeError('Unable to locate description string.')
 
 
-NAME = 'rsniffer'
-AUTHOR = 'bitbrute'
-AUTHOR_EMAIL = 'bitbrute@gmail.com'
+NAME = 'RSniffer'
+AUTHOR = 'Ryhandd'
+AUTHOR_EMAIL = 'rayhandwumu6@gmail.com'
 LICENSE = 'MIT'
 VERSION = get_version()
-URL = 'https://github.com/bitbrute/rsniffer'
+URL = 'https://github.com/Ryhandd/RSniffer'
 DESCRIPTION = get_description()
 KEYWORDS = ["rsniffer", "limit", "bandwidth", "network"]
 PACKAGES = find_packages()
