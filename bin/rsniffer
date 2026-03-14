@@ -8,5 +8,5 @@ if __name__ == '__main__':
     sys.path.insert(0, path_to_project_root)
     os.chdir(path_to_project_root)
 
-    from RSniffer.rsniffer import run
+    from rsniffer.rsniffer import run
     sys.exit(run())
