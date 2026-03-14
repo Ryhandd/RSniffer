@@ -69,7 +69,8 @@ INSTALL_REQUIRES = ['colorama',
                     'netifaces',
                     'tqdm',
                     'scapy',
-                    'terminaltables'
+                    'terminaltables',
+                    'pyfiglet'
                     ]
 
 CMDCLASS = { 'clean': CleanCommand }
